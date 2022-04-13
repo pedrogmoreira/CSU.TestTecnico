@@ -1,0 +1,11 @@
+CREATE PROCEDURE GetNotasFiscaisPorMes
+	@Mes int
+	
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT *
+	  FROM [dbo].[NOTA_FISCAL]
+	  WHERE MONTH(DTEMISSAO) = @Mes
+END

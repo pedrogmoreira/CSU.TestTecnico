@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSU.EtapaTecnica.Data\CSU.EtapaTecnica.Data.csproj" />
+    <ProjectReference Include="..\CSU.EtapaTecnica.Domain\CSU.EtapaTecnica.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
